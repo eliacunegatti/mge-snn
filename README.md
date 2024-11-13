@@ -99,5 +99,5 @@ each trained under 3 different seeds) are available in a shared [Google Drive Fo
 The multipartite graph representation of each SNN is also stored in zstd format (see [here](https://github.com/facebook/zstd)).
 
 
-### Contact
+## Contact
 If you have any problem with the codebase please feel free to reach out at [elia.cunegatti@unitn.it](elia.cunegatti@unitn.it) or open a public issue 😀.
