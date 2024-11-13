@@ -17,7 +17,7 @@ Official implementation of the paper "Understanding Sparse Neural Networks from 
   <em>Our proposed Multi-Partite Graph Represenation for Resnet-20 pruned with ERK at 98% sparsity.</em>
 </p>
 
-```
+```bibtex
 @article{
 cunegatti2024understanding,
 title={Understanding Sparse Neural Networks from their Topology via Multipartite Graph Representations},
