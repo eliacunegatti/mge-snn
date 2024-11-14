@@ -100,4 +100,4 @@ The multipartite graph representation of each SNN is also stored in zstd format 
 
 
 ## Contact
-If you have any problem with the codebase please feel free to reach out at [elia.cunegatti@unitn.it](elia.cunegatti@unitn.it) or open a public issue 😀.
+If you have any problem with the codebase please feel free to reach out at [elia.cunegatti@unitn.it](mailto:elia.cunegatti@unitn.it) or open a public issue 😀.
