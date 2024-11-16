@@ -11,6 +11,10 @@ Official implementation of the paper "Understanding Sparse Neural Networks from 
 
 **Authors**: [Elia Cunegatti](https://scholar.google.com/citations?hl=it&user=a2JJRjMAAAAJ),  [Matteo Farina](https://farinamatteo.github.io), [Doina Bucur](https://doina.net), [Giovanni Iacca](https://sites.google.com/site/giovanniiacca/).
 
+
+>**Abstract.** Pruning-at-Initialization (PaI) algorithms provide Sparse Neural Networks (SNNs) which are computationally more efficient than their dense counterparts, and try to avoid performance degradation. While much emphasis has been directed towards *how* to prune, we still do not know *what topological metrics* of the SNNs characterize *good performance*. 
+From prior work, we have layer-wise topological metrics by which SNN performance can be predicted: the Ramanujan-based metrics. To exploit these metrics, proper ways to represent network layers via Graph Encodings (GEs) are needed, with Bipartite Graph Encodings (BGEs) being the *de-facto* standard at the current stage. Nevertheless, existing BGEs neglect the impact of the inputs, and do not characterize the SNN in an end-to-end manner. Additionally, thanks to a thorough study of the Ramanujan-based metrics, we discover that they are only as good as the *layer-wise density* as performance predictors, when paired with BGEs. To close both gaps, we design a comprehensive topological analysis for SNNs with both linear and convolutional layers, via (i) a new input-aware Multipartite Graph Encoding (MGE) for SNNs and (ii) the design of new end-to-end topological metrics over the MGE. With these novelties, we show the following: (a) The proposed MGE allows to extract topological metrics that are much better predictors of the accuracy drop than metrics computed from current input-agnostic BGEs; (b) Which metrics are important at different sparsity levels and for different architectures; (c) A mixture of our topological metrics can rank PaI algorithms more effectively than Ramanujan-based metrics
+
 <p align="center">
   <img src="figures/Resnet-20-ERK-98.png" alt="Project logo" width="1000"/>
   <br>
